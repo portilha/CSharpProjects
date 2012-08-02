@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{0090D1E0-7D64-43F7-BFE3-F3AD16DB46E2}</ProjectGuid>
+    <ProjectGuid>{03CF36DC-FDB3-4B8C-AF1E-6DA3453481B4}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>XmlLinqSamples</RootNamespace>
-    <AssemblyName>XmlLinqSamples</AssemblyName>
+    <RootNamespace>WebSamples</RootNamespace>
+    <AssemblyName>WebSamples</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -46,21 +46,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Content Include="xmlTest.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="xmlTest.xsd">
-      <SubType>Designer</SubType>
-    </None>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-
-  <PropertyGroup>
-    <PostBuildEvent>
-      echo 1
-</PostBuildEvent>
-  </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
