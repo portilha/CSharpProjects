@@ -1,0 +1,20 @@
+﻿<Window x:Class="WPFCustomPanels.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:WPFCustomPanels"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <local:RibbonPanel >
+            <Button Background="Black">First </Button>
+            <Button Background="Green">Second</Button>
+            <Button Background="Green">Second</Button>
+            <Button Background="Yellow">Second</Button>
+            
+            <Button Background="Blue">Second</Button>
+            <Button Background="Blue">Second</Button>
+            <Button Background="Blue">Second</Button>
+            
+            <Button Background="Red">Second</Button>
+        </local:RibbonPanel>
+    </Grid>
+</Window>
